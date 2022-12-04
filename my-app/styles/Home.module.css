@@ -1,0 +1,89 @@
+.main {
+  min-height: 90vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-family: "Courier New", Courier, monospace;
+  border: rgb(96, 56, 16);
+  background-color: white;
+  margin-left: -10rem;
+
+}
+
+.title {
+  font-size: 3rem;
+  margin: 2rem 0;
+  color: #490007;
+}
+
+.image {
+  width: 140%;
+  height: 140%;
+  margin-left: 20%;
+}
+
+.imageIcon {
+  width: 70%;
+  height: 70%;
+
+}
+
+.description {
+  line-height: 1;
+  margin: 2rem 0;
+  font-size: 1.2rem;
+}
+
+.blockdescription {
+  line-height: 1;
+  margin: 2rem 0;
+  padding-left:2rem;
+  font-size: 1.2rem;
+  background-color: rgb(251, 251, 234);
+}
+.input {
+  padding: 1px 2px;
+  border-radius: 4px;
+  background-color: hwb(47 79% 0% / 0.967);
+  color: #490007;
+  font-size: 20px;
+  padding: 20px;
+  width: 260px;
+  cursor: pointer;
+  margin-bottom: 2%;
+}
+.button {
+  border-radius: 4px;
+  background-color: #c71107;
+  border: #c71107;
+  color: white;
+  font-size: 20px;
+  padding: 10px;
+  width: 260px;
+  cursor: pointer;
+  margin-bottom: 2%;
+  border-style: solid;
+  font-weight: bold;
+}
+
+@media (max-width: 1000px) {
+  .main {
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.footer {
+  display: flex;
+  padding: 2rem 0;
+  border-top: rgb(211, 211, 221);
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(100 98 11);
+  color: white;
+  font-size: large;
+  font-weight: bold;
+}

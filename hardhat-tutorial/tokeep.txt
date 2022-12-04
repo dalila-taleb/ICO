@@ -1,0 +1,6 @@
+Crypto NFT-contract : 0x56F3adDF6f7733dA7Dd1eae4d6E5824248168c30
+---- First deployement on goerli
+Crypto Devs Token Contract :  0x3DdabF435661248cAf5a7241F84f74E52035c292
+
+
+
